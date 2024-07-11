@@ -8,7 +8,17 @@ class TestAdd5(unittest.TestCase):
 
     def testAdd5WithStr(self):
         testNum = "okla"
-        self.assertTrue(isinstance(add5(testNum),ValueError))
+        # === assertion_1 ===
+        # self.assertTrue(isinstance(add5(testNum),ValueError))
         
+        # === assertion_1=== 
+        self.assertIsInstance(add5(testNum), ValueError)
 
-unittest.main()
+    def testAdd5With0(self):
+        testNum = 0
+        self.assertEqual(add5(testNum), "[Error]: please provide the val for num.")
+
+      
+        
+if __name__== "__main__":
+    unittest.main()
