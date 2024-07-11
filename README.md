@@ -25,3 +25,4 @@
 
 - [Chap4 - Python Basic2](https://hackmd.io/LEwHwsJgS_-2OCFhxXvElA?edit)
 - [Chap7 - Advanced Pytho: Functional Programming](https://hackmd.io/j47AoouPQ_yqBze12W56Vw)
+- [Chap8 Advanced Python: Decorators](https://hackmd.io/7fvKA3dDTt6wGiWq4y0uPg)
