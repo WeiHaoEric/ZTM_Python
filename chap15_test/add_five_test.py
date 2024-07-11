@@ -11,7 +11,7 @@ class TestAdd5(unittest.TestCase):
         # === assertion_1 ===
         # self.assertTrue(isinstance(add5(testNum),ValueError))
         
-        # === assertion_1=== 
+        # === assertion_2=== 
         self.assertIsInstance(add5(testNum), ValueError)
 
     def testAdd5With0(self):
